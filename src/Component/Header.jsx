@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logo from "../assets/WhatsApp Image 2025-12-11 at 10.12.59 PM.png";
 
 const Header = ({ viewType, setViewType, onNewTask }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -9,8 +10,8 @@ const Header = ({ viewType, setViewType, onNewTask }) => {
         
         <div className="flex items-center justify-between w-full md:w-auto">
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 sm:w-10 sm:h-10 bg-slate-900 text-white rounded flex items-center justify-center font-bold text-xs sm:text-sm">
-              Logo
+            <div className="w-[120px] h-8 sm:w-[200px] sm:h-10  text-white rounded flex items-center justify-center font-bold text-xs sm:text-sm">
+              <img src={logo} alt="" />
             </div>
             <h1 className="text-lg sm:text-xl font-bold text-gray-800 truncate">
               {viewType === "kanban" ? "Kanban" : "Tasks"}
