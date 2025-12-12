@@ -94,7 +94,7 @@ const TaskModal = ({ isOpen, onClose }) => {
             <textarea 
               id="description"
               name="description" 
-              defaultValue="Create initial wireframe designs for the new homepage layout."
+              defaultValue="type details."
               className="w-full border border-gray-200 rounded px-3 py-2.5 text-sm text-gray-700 leading-relaxed focus:outline-none focus:border-slate-800 shadow-sm resize-none"
             ></textarea>
           </div>
