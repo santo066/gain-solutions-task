@@ -35,7 +35,7 @@ const TaskModal = ({ isOpen, onClose }) => {
               id="title"
               name="title"
               type="text" 
-              defaultValue="Design homepage wireframe"
+              defaultValue="type task title"
               className="w-full border border-gray-200 rounded px-3 py-2.5 text-sm text-gray-800 font-medium focus:outline-none focus:border-slate-800 focus:ring-1 focus:ring-slate-800 transition-all shadow-sm"
             />
           </div>
